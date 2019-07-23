@@ -48,13 +48,13 @@ public class Statements {
 //		if(x = 5) { // DOES NOT COMPILE
 //		
 //		}
-		
-		
+
 		////
-		
-		
-		if(a==true)
-			System.out.println("1"); System.out.println("2");System.out.println("3");
+
+		if (a == true)
+			System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
 
 		/////
 		int y = 4;
@@ -169,33 +169,52 @@ public class Statements {
 			System.out.println("Saturday");
 			break;
 		}
-	
-	
-	
-	/////
-	
-	System.out.println("-----------------dayOfWeek6");
-	
-	int dayOfWeek6 = 5;
-	switch (dayOfWeek6) {
-	
-	}
-	
-	///////
-	
+
+		/////
+
+		System.out.println("-----------------dayOfWeek6");
+
+		int dayOfWeek6 = 5;
+		switch (dayOfWeek6) {
+
+		}
+
+		///////
+
 //	do {
 //		System.out.println("ssss");
 //	}while();
-	
-	
-	/////
-	int h = 1;
-	do
-		System.out.println("ss");
-		
-		while(false);
-	
-	
+
+		/////
+		int h = 1;
+		do
+			System.out.println("ss");
+
+		while (false);
+
+		///
+
+//		do {
+//			int i = 1;
+//			System.out.print(y++ + " ");
+//		} while (i <= 10);
+
+		final char j = 'A', k = 'D';
+		char grade = 'B';
+
+		switch (grade) {
+		case j: // Mo¿e byæ puste i bez œrednika
+		case 'B':
+			System.out.print("great");
+		case 'C':
+			System.out.print("good");
+			break;
+		case k:
+			; // Mo¿e byæ te¿ puste ze œrednikiem
+		case 'F':
+			System.out.print("not good");
+		}
+
 	}
 
 //	private int getSortOrder(String firstName, final String lastName) {

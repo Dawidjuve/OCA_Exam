@@ -51,39 +51,60 @@ public class Operators {
 //		k = k * j;
 
 		k *= k * j;
-		
+
 		long l = 5;
-		long ³ = (l=3);
+		long ³ = (l = 3);
 		System.out.println(³ + " " + l);
-		
-		//Operatory logiczne
-		
+
+		// Operatory logiczne
+
 		boolean m = true;
 		boolean n = false;
-		System.out.println(m^n);
-		
+		System.out.println(m ^ n);
+
 		int o = 6;
 		boolean p = (o >= 6) || (++o <= 7);
 		System.out.println(o);
-		
-		//Operatory równoœci
-		
+
+		// Operatory równoœci
+
 		int r = 2;
 		double rr = 2.0;
-		System.out.println(rr==r);
-		
+		System.out.println(rr == r);
+
 		String s = "dasda";
 //		System.out.println(r==s);
 //		System.out.println(r==true);
-		
+
 		Date d1 = Date.valueOf("2001-10-10");
 		Date d2 = Date.valueOf("2010-10-10");
-		d1= null;
-		d2= null;
-		System.out.println(d1==d2);
-//		System.out.println("null=null? " + d1==d2);
-		System.out.println("null=null? " + (d1==d2));
-		System.out.println("aaaa "+ true);
-	}
+		d1 = null;
+		d2 = null;
+		System.out.println(d1 == d2);
+//		System.out.println("null=null? " + d1==d2); Konkatenacja idzie od lewej, wiêc podejmowana jest próba po³¹czenia string z date.
+		System.out.println("null=null? " + (d1 == d2));
+		
+		System.out.println("aaaa " + true);
 
+		boolean u = true;
+		
+		///ró¿ne
+//		String t = u; NIE mo¿na konwerto¹æ boolean do Stringa!
+		int w = 5;
+		System.out.println(w > 2 ? w < 4 ? 10 : 8 : 7); // Nawiasy nie s¹ wymagane
+		
+		 boolean ww = true, z = true;
+		 int yy = 20;
+		 ww = (yy != 10) ^ (z=false); //!!!!!!!!!!!
+		 System.out.println(ww+", "+yy+", "+z);
+		 
+		 int aa = 5;
+		 String bb = "5";
+//		 System.out.println(aa==bb);
+		 
+		 
+		 boolean cc = false;
+		 if(cc = true) System.out.println("Success");
+
+	}
 }

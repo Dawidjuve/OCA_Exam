@@ -71,6 +71,26 @@ public class ForLoop {
 			}
 		}
 
+		boolean j = true;
+
+		iflabel: if (1 == 2) {
+
+			break iflabel;
+
+		}
+
+//		if(j) {
+//			if(1==2) {
+//				break;
+//			}
+//		}
+
+		//////////////
+
+		for (int i = 0; i < 10;) {
+			i = i++;
+			System.out.println("Hello World");
+		}
 	}
 
 }
