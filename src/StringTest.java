@@ -38,6 +38,9 @@ public class StringTest {
 		System.out.println("aaa==aaa? " + (s2==s3));
 		System.out.println("toString==aaa?" + s3==s4);//Co tu siê dzieje, ¿e znika napis?
 		
+		String aaa = "Hello";
+		System.out.println(aaa=="Hello");
+		
 		//chatAt
 		System.out.println("Trzecia litera s³owa pies to: " + s2.charAt(2));
 		
@@ -96,9 +99,13 @@ public class StringTest {
 		
 		//method chaining
 		
-		String result = "AniMaL ".trim().toLowerCase().replace('a', 'A');
+		String result = "AniMaL ".trim().toLowerCase().replace('a', 'A'); //ta linia tworzy 4 stringi
 		System.out.println(result);
 		
+		String numbers = "012345678";
+		System.out.println(numbers.substring(1, 3));
+		System.out.println(numbers.substring(7, 7));
+		System.out.println(numbers.substring(7, 8));
 		
 	}
 	
