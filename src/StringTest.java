@@ -41,6 +41,9 @@ public class StringTest {
 		String aaa = "Hello";
 		System.out.println(aaa=="Hello");
 		
+		StringBuilder sb2 = new StringBuilder("aaa");
+//		System.out.println(aaa==sb2);
+		
 		//chatAt
 		System.out.println("Trzecia litera s³owa pies to: " + s2.charAt(2));
 		
@@ -106,6 +109,21 @@ public class StringTest {
 		System.out.println(numbers.substring(1, 3));
 		System.out.println(numbers.substring(7, 7));
 		System.out.println(numbers.substring(7, 8));
+		
+		String s8 = "aaa";
+		s8+=false;
+		
+		StringTest st = new StringTest();
+		s8+=st;
+		System.out.println(s8);
+		
+		//Zadanie. jaki bêdzie rezultat?
+		String letters = "abcdef";
+		System.out.println(letters.length());
+		System.out.println(letters.charAt(3));
+		System.out.println(letters.charAt(6));
+		
+		
 		
 	}
 	

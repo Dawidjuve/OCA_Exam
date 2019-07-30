@@ -46,7 +46,9 @@ public class DeclaringVariables {
 			d=5;
 		int e = d;
 		
-
+		int[] a = {2,3,4}	;
+//		Integer[] b = (Integer[]) a;
+//		Integer[] b = a;
 		
 		
 		String aa = null;

@@ -181,6 +181,32 @@ public class ArrayListTest {
 		Collections.sort(list12);
 		System.out.println("list12 = " + list12);
 		
+		//Zadanie. 
+		
+		List<String> hex = Arrays.asList("30", "8", "3A", "FF");
+		Collections.sort(hex);
+		int x = Collections.binarySearch(hex, "8");
+		int y = Collections.binarySearch(hex, "3A");
+		int z = Collections.binarySearch(hex, "4F");
+		System.out.println(x + " " + y + " " + z);
+		
+		
+		
+		List<String> names = new ArrayList<>();
+		names.add("Janusz");
+		names.add("Krystyna");
+		names.add(null);
+		for (String name : names) System.out.print(name);
+		
+		//Zadanie 2
+		
+		List<Integer> ages = new ArrayList<>();
+		ages.add(Integer.parseInt("5"));
+		ages.add(Integer.valueOf("6"));
+		ages.add(7);
+		ages.add(null);
+		for (int age : ages) System.out.print(age);
+		
 	}
 
 }

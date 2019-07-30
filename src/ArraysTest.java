@@ -139,6 +139,12 @@ public class ArraysTest {
 		differentSize2[2] = new int[3];
 		differentSize2[2][0] = 1;
 		
+		Object[][][] cubbies = new Object[3][0][5];
+//		cubbies[1][0][1] = new Object();
+//		cubbies[1][0] = new Object[1];
+		
+		String [] names = {"Ala", "Jacula" , "Marian"};
+//		List<String> listOfNames = names.asList();
 		
 	}
 

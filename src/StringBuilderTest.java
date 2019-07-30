@@ -104,6 +104,11 @@ public class StringBuilderTest {
 		
 		String aaa = "Hello";
 		System.out.println(aaa=="Hello");
+		
+//		StringBuilder sb11 = "aaaa";
+		StringBuilder sb12  = new StringBuilder("rumble");
+		sb12.append(4).deleteCharAt(3).delete(3, sb12.length() - 1);
+		System.out.println(sb12);
 	}
 
 }
