@@ -52,6 +52,16 @@ public class Overloading {
 		object.methodD(Integer.parseInt("1"));
 		object.methodD(new Integer(1));
 		//A co jeœli bêdzie istnieæ tylko jedna metoda methodD()?
+		
+		object.methodE("test");
+		object.methodE(56);
+		
+		byte e = 2;
+		object.methodF(e);
+		long f = 2L;
+//		object.methodG(f);
+		
+//		object.methodH(4);
 	}
 	
 	public void methodB(int numMiles) {
@@ -60,5 +70,16 @@ public class Overloading {
 		public void methodB(short numFeet) {
 		System.out.println("short");
 		}
+		
+		
+		public void methodE(String x) {System.out.println("String");}
+		public void methodE(Object x) {System.out.println("Object");}
+		
+		public void methodF(long x) { System.out.println("long");}
+		public void methodG(int x) { System.out.println("int");}
+		
+		public void methodH(Long x) {System.out.println("Long");}
+		
+		
 
 }

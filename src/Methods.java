@@ -31,7 +31,7 @@ public class Methods {
 //		walk(null, null);
 		walk(1, null);
 		
-
+		testVarargs();
 
 	}
 
@@ -61,6 +61,10 @@ public class Methods {
 	public void assignA(int a, int b) {
 		a=a;
 		c=b;
+	}
+	
+	public static void testVarargs(String...strings ) {
+		
 	}
 
 }
