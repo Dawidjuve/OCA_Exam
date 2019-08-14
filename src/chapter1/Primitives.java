@@ -1,3 +1,5 @@
+package chapter1;
+
 
 import java.sql.Date;
 
@@ -81,6 +83,9 @@ public class Primitives {
 		System.out.println(aj);
 		System.out.println(ak);
 		
-		System.out.print(2147483647+1);
+		System.out.println(2147483647+1);
+		
+		int am = 20;
+		System.out.println(-am++);
 	}
 }

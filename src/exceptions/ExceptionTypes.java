@@ -15,7 +15,8 @@ public class ExceptionTypes {
 		// ArithmeticException
 //		int answer = 11 / 0;
 //		double a = 11.0/0;
-
+//		int b = 0/0;
+		System.out.println(0.0/0);
 		// ArrayIndexOutOfBoundsException
 
 //		int[] countsOfMoose = new int[3];
@@ -42,7 +43,7 @@ public class ExceptionTypes {
 		//***ERROR****
 		
 		//StackOverFlowError
-		doNotCodeThis(1);
+//		doNotCodeThis(1);
 
 	}
 
