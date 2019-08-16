@@ -5,6 +5,10 @@ public interface StaticMethod {
 	public static void doA() {
 		System.out.println("interface method doA");
 	}
+	
+	static void doB() {
+		
+	}
 
 }
 
@@ -32,5 +36,6 @@ class ClassE implements StaticMethod{
 //		StaticMethod sm = new ClassE();
 //		sm.doA();
 //		
+//		System.out.println(doB());
 //	}
 }
