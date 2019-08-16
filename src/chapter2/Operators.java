@@ -1,3 +1,5 @@
+package chapter2;
+
 import java.sql.Date;
 
 public class Operators {
@@ -27,14 +29,17 @@ public class Operators {
 		short e = 2;
 //		short f = d/e;
 		short g = 50 / 2;
+		d/=2;
 		System.out.println(g);
 
 		// Opeartory jedno argumnetowe
 
-//		int x = !5; // DOES NOT COMPILE
+		
 //		boolean y = -true; // DOES NOT COMPILE
 //		boolean z = !0; // DOES NOT COMPILE
-
+		boolean zz = !!!true;
+		
+		System.out.println("zz = " + zz);
 //		boolean h = 0;
 
 		Boolean i = Boolean.valueOf("1");
@@ -70,7 +75,7 @@ public class Operators {
 
 		int r = 2;
 		double rr = 2.0;
-		System.out.println(rr == r);
+		System.out.println("rr == r " + (rr == r));
 
 		String s = "dasda";
 //		System.out.println(r==s);

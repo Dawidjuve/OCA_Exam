@@ -1,5 +1,5 @@
 
-
+package chapter1;
 
 public class DeclaringVariables {
 
@@ -52,9 +52,13 @@ public class DeclaringVariables {
 		
 		
 		String aa = null;
-		aa.chars();
+//		aa.chars();
 		
 //		String true = "true";
+		
+		int g= 2;
+		int h = g = 5;
+		System.out.println("g = " +  g + " h = " + h);
 	}
 
 }
