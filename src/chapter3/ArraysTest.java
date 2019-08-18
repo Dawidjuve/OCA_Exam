@@ -1,3 +1,4 @@
+package chapter3;
 import java.util.Arrays;
 
 public class ArraysTest {
@@ -12,7 +13,7 @@ public class ArraysTest {
 		int[] array2 = { 3, 0, 2 };
 //		int [] array4 = new int[3] {1,4,10};
 		int[] array5 = new int[] { 1, 4, 10 };
-		int[] array8 = { 1 }; // brak spacji w deklaracji
+		int[]array8 = { 1 }; // brak spacji w deklaracji
 		int array3[] = new int[3];
 //		int array14[] = new int {1, 4, 6};
 
@@ -61,7 +62,8 @@ public class ArraysTest {
 		int intArray[] = { 2, 3 };
 		short shortArray[] = { 4, 5 };
 
-//		shortArray[1] = intArray[1];
+		intArray[1] = shortArray[1] ;
+//		intArray=shortArray;
 
 		// U¿ycie tablic
 
@@ -145,6 +147,7 @@ public class ArraysTest {
 		
 		String [] names = {"Ala", "Jacula" , "Marian"};
 //		List<String> listOfNames = names.asList();
+		
 		
 	}
 

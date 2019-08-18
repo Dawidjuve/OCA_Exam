@@ -87,5 +87,7 @@ public class Primitives {
 		
 		int am = 20;
 		System.out.println(-am++);
+//		System.out.println(++am++);
+		System.out.println(-++am);
 	}
 }

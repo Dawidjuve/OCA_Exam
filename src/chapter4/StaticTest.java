@@ -1,6 +1,7 @@
+package chapter4;
 
 //import static java.util.Arrays;
-//import static java.util.Arrays.*;
+import static java.util.Arrays.*;
 import static java.util.Arrays.asList;
 //static import java.util.Arrays.*;
 

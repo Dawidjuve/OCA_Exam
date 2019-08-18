@@ -1,3 +1,4 @@
+package chapter4;
 //Example 1
 
 public class InitializationOrder {

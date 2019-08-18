@@ -52,7 +52,7 @@ public class DeclaringVariables {
 		
 		
 		String aa = null;
-//		aa.chars();
+		aa.chars();
 		
 //		String true = "true";
 		

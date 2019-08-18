@@ -1,3 +1,4 @@
+package chapter2;
 public class SearchSample {
 	public static void main(String[] args) {
 		int[][] list = { { 1, 13, 5 }, { 1, 2, 5 }, { 2, 7, 2 } };

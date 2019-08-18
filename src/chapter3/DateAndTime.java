@@ -1,3 +1,4 @@
+package chapter3;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -93,6 +94,21 @@ public class DateAndTime {
 		System.out.println("\n ---Periods---\n");
 
 		System.out.println("LocalDate.now().toEpochDay() = " + LocalDate.now().toEpochDay());
+		
+		System.out.println("Period.ofDays(15) = " + Period.ofDays(15));
+		
+		Period p1 = Period.ofDays(5);
+		System.out.println(p1.minusDays(6));
+		p1 = p1.minusDays(5);
+		System.out.println("p1 = " + p1);
+		
+		Period p2 = Period.ofMonths(2);
+		p2 = p2.minusDays(10);
+		System.out.println("p2 = " + p2);
+		
+		Period p3 = Period.of(1, 2, 5);
+		System.out.println(p3.minusMonths(1));
+		
 
 		LocalDate date9 = LocalDate.now();
 		Period period = Period.ofMonths(2);

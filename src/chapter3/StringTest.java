@@ -1,4 +1,4 @@
-
+package chapter3;
 public class StringTest {
 
 	public StringTest() {

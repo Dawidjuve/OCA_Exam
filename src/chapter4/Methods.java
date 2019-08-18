@@ -1,3 +1,4 @@
+package chapter4;
 
 public class Methods {
 
@@ -22,14 +23,15 @@ public class Methods {
 		koala=null;
 		System.out.println("count = " + koala.count);
 		koala.print();
-		
+		Koala koala2;
+//		koala2.print();
 		
 		Methods m = new Methods();
 		m.assignA(10, 20);
 		System.out.println("a = " + m.a + " c = " + m.c);
 		
 //		walk(null, null);
-		walk(1, null);
+//		walk(1, null);
 		
 		testVarargs();
 

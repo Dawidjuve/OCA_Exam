@@ -1,3 +1,4 @@
+package chapter3;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -106,6 +107,7 @@ public class ArrayListTest {
 //		 int l = (int) Integer.parseInt("20.01");
 		int ³ = (int) Double.parseDouble("20.01");
 //		 int bad1 = Integer.parseInt("a");
+		
 
 //		 int r = Integer.valueOf("2.0");
 

@@ -17,15 +17,15 @@ public class Test4 {
 
 class ClassA{
 	
-	public void doA(Integer a) {
-		
-	}
+//	public void doA(Integer a) {
+//		System.out.println("int");
+//	}
 	
 //	public void doA(Object b) {
-//		
+//		System.out.println("Object");
 //	}
 	
-//	public void doA(String a) {
-//		
-//	}
+	public void doA(String a) {
+		System.out.println("String");
+	}
 }

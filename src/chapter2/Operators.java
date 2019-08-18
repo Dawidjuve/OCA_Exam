@@ -96,6 +96,7 @@ public class Operators {
 		///ró¿ne
 //		String t = u; NIE mo¿na konwerto¹æ boolean do Stringa!
 		int w = 5;
+		System.out.println("Operator trójargumentowy");
 		System.out.println(w > 2 ? w < 4 ? 10 : 8 : 7); // Nawiasy nie s¹ wymagane
 		
 		 boolean ww = true, z = true;
