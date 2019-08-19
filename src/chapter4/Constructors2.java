@@ -13,7 +13,7 @@ public class Constructors2 {
 	
 	public Constructors2(String name) {
 		this(name, 2);
-//		this.a=4 /2
+//		this.a=4; //2
 	}
 	
 	public Constructors2() {
@@ -21,7 +21,7 @@ public class Constructors2 {
 		//comment is fine /3
 		
 		this("ALA", 2);
-//		this.a=4; /2
+//		this.a=4; //2
 		
 	}
 	

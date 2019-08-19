@@ -112,7 +112,25 @@ public class ArrayListTest {
 //		 int r = Integer.valueOf("2.0");
 
 //		 Integer u = Integer.valueOf(null);
+		
+		Integer uu = new Integer(3);
+		Integer uu2 = new Integer(3);
+		System.out.println("Integer == Integer: " + (uu==uu2));
+		System.out.println("Boolean == Boolean: " + (new Boolean(true) == new Boolean(true)));
+		Short ss = 2;
+//		Integer ss2 = ss;
+		Integer ss3 = ss.intValue();
 
+		
+//		Long ll = 2;
+        Long ll2 = 2L;
+        
+        short sh = 3;
+//        Integer ii = sh;
+        
+        int ii2 = 3;
+//        Double dd2 = ii2;
+        
 		// Autoboxing
 
 		ArrayList<Double> list8 = new ArrayList<>();

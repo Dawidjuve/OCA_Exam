@@ -44,6 +44,7 @@ public class Overloading {
 		object.methodB(2*3);
 //		short c = a * b ;
 		short d = 2 * 3;
+//		byte ee = 2 *80;
 		
 		object.methodC(1, 2);
 		object.methodC(1, new int[] {1});
