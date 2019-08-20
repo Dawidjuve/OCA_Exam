@@ -31,3 +31,4 @@ public class Question62 {
         System.out.println("a==b: " + (a==b));
     }
 }
+//f,t, f,t, f,f,f

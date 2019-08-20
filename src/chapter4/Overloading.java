@@ -64,6 +64,8 @@ public class Overloading {
 //		object.methodG(f);
 		
 //		object.methodH(4);
+		
+		object.methodI(new Integer(2));
 	}
 	
 	public void methodB(int numMiles) {
@@ -82,6 +84,7 @@ public class Overloading {
 		
 		public void methodH(Long x) {System.out.println("Long");}
 		
-		
+		void methodI(Object o) {System.out.println("Object");}
+		void methodI(int i) {System.out.println("int");}
 
 }

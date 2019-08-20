@@ -1,4 +1,6 @@
-package exceptions;
+package chapter6.exceptions;
+
+import java.io.IOException;
 
 public class Exceptions1 {
 
@@ -7,11 +9,11 @@ public class Exceptions1 {
 
 	public static void main(String... args) {
 		String[] animals = new String[0];
-		System.out.println(animals[0]); // 1
+//		System.out.println(animals[0]); // 1
 	}
 
-	public static void throwA() { // 4
-		throw new RuntimeException("Ow! I fell.");
+	public static void throwA()  { // 4
+//		throw new RuntimeException("Ow! I fell.");
 //		throw new RuntimeException("Ow! I fell."); //2
 	}
 
@@ -43,7 +45,9 @@ public class Exceptions1 {
 //			
 //			 try {
 //				 throwA();
-//			  } finally {
+//			  } catch (Exception e) {
+//				// TODO: handle exception
+//			}finally {
 //			  System.out.println("all better");
 //			}
 //		w której lini wyst¹pi b³¹d kompilacji?
