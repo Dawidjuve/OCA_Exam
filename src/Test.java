@@ -14,18 +14,12 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
     	
-    	         List<String> trafficLight = new ArrayList<>();
-    	         trafficLight.add(0, "RED");
-    	         trafficLight.remove(new StringBuilder());
-    	         System.out.println(trafficLight);
-    	  
-    	         
-    	        	 doA(new String[2]);
-    	        
-					// TODO: handle exception
-//				}catch(IOException e) {
-//					
-//				}
+    	final  double area = 5.7;
+         String color;
+         if (area < 7)
+             color = "green";
+ 
+         System.out.println(color);
     }
 
     private static void doA(String... arr) {

@@ -102,6 +102,15 @@ public class Preview {
         
 //        doA(1);
         
+        
+        int [] arr1 = {1, 2, 3};
+        char [] arr2 = {'A', 'B'}; //ASCII code of 'A' is 65, 'B' is 66
+//        arr1 = arr2;
+        
+        
+        String fruit = new String(new char[] {'M', 'a', 'n', 'g', 'o'});
+//        String fruit2 = new char[] {'a'};
+        
 	}
 	
 	public static void walk(int start, int... nums) {
